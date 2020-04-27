@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(250, 250, 250, 0.822);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    flex-direction: column;
+}
+
+.image {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.image:hover {
+	width: 300px;
+	height: auto;
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    filter: none;
+}
